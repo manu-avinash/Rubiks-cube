@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Doto", "Roboto", sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+/* Navigation bar */
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background: rgb(251, 123, 157);
+  border-bottom: 1px solid gray;
+  height: 48px;
+  font-size: 24px;
+}
+.test_tab p,
+.about_tab p,
+.contact_tab p {
+  cursor: pointer;
+}
+.test_tab p:hover,
+.about_tab p:hover,
+.contact_tab p:hover {
+  text-decoration: underline;
+}
+.main {
+  flex: 1;
+  background-color: beige;
+  min-height: 80vh;
+  padding: 10px 0px;
+}
+.footer {
+  height: 150px;
+  background-color: rgb(13, 13, 12);
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubiks Cube - Test</title>
+    <!-- <link rel="stylesheet" href="/root/app/css/test.css"> -->
+    <link rel="stylesheet" href="/app/css/test.css">
+    <link rel="stylesheet" href="/app/css/generic.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,665;1,665&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Doto:wght@800&display=swap');
+    </style>
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="tab test_tab">
+                <p>Test</p>
+            </div>
+            <div class="tab about_tab">
+                <p>About</p>
+            </div>
+            <div class="tab contact_tab">
+                <p>Contact</p>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="input">
+            <button class="input_camera">Start Camera</button>
+            <button class="input_upload">Upload Image</button>
+        </div>
+        <div class="video-window">
+            <video id="webcam" autoplay playinsline src=""></video>
+            <img id="image" src="" style="display: none;max-width: 100%;" alt="">
+        </div>
+        <div class="result">
+            <p>Predicted : None</p>
+            <p>Confidence : ------</p>
+        </div>
+    </main>
+    <footer class="footer">
+
+    </footer>
+    <script src="/app/js/test.js"></script>
+    <script src="/app/js/generic.js"></script>
+
+    <!-- <script src="/root/app/js/generic.js"></script> -->
+    <!-- <script src="/root/app/js/test.js"></script> -->
+</body>
+
+</html>
