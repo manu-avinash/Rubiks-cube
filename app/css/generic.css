@@ -29,9 +29,9 @@ body {
   text-decoration: underline;
 }
 .main {
-  flex: 1;
+  
   background-color: beige;
-  min-height: 80vh;
+  height: 100vh;
   padding: 10px 0px;
 }
 .footer {

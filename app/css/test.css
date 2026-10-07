@@ -28,7 +28,7 @@
   background-color: rgba(68, 232, 112, 0.728);
 }
 .video-window {
-  flex: 1;
+  height: 80vh;
 
   background-color: black;
   width: 75vw;
@@ -40,11 +40,12 @@
   height: 100%;
   width: 100%;
   border-radius: 30px;
-
+  
   align-self: center;
   justify-self: center;
 }
 .video-window img {
+  object-fit: contain;
   z-index: 100;
 }
 

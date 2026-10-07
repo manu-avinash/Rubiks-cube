@@ -29,6 +29,8 @@
         console.error("Error accessing camera: ", error);
         alert("Coudn't access the camera. Please check with permissions.");
       }
+      webcam.style.display = "block";
+
       input_buttons.firstElementChild.innerHTML = "Stop Camera";
     }
   });
