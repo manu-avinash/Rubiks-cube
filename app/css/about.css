@@ -1,0 +1,25 @@
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.7;
+    letter-spacing: 1px;
+}
+h1{
+    font-weight: 900;
+    margin: 10px 20px;
+}
+img
+{
+    margin: 10px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px black;
+}
+.content{
+    font-size: x-large;
+    font-weight: 800;
+    margin: 20px 40px;
+}

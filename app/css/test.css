@@ -20,7 +20,7 @@
   font-size: 20px;
   border: 2px solid black;
   border-radius: 12px;
-  padding: 0px 270px;
+  width: 37vw;
   background-color: rgb(68, 232, 112);
   cursor: pointer;
 }
@@ -40,9 +40,12 @@
   height: 100%;
   width: 100%;
   border-radius: 30px;
-  
+
   align-self: center;
   justify-self: center;
+}
+.video-window video {
+  transform: scaleX(-1);
 }
 .video-window img {
   object-fit: contain;

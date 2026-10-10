@@ -1,0 +1,22 @@
+a {
+  color: black;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.main > p {
+  font-size: 50px;
+  margin: 20px;
+}
+.main > div {
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+.main > div div {
+  margin-left: 30px;
+  font-size: xx-large;
+}

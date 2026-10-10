@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/app/css/generic.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,665;1,665&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Doto:wght,ROND@100..900,0..100&display=swap');
     </style>
 </head>
 
@@ -29,10 +30,39 @@
         </nav>
     </header>
     <main class="main">
+        <article>
+            <h1>Rubik's Cube</h1>
+            <img class="rubiks-cube-img"
+                src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Rubiks_cube_solved.jpg/250px-Rubiks_cube_solved.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+                alt="Rubik's cube">
+            <div class="content">Rubik's Cube is a 3D combination puzzle invented in 1974 by <a
+                    style="color: rgb(0, 0, 0);" target="_blank" href="https://en.wikipedia.org/wiki/Ernő_Rubik">Ernő
+                    Rubik</a>. A standard 3x3x3
+                cube has center pieces
+                (1 tile, stationary), edge pieces (2 tiles), and corner pieces (3 tiles). Every face of the cube can be
+                rotated a full turn. There are over 43 quintillion
+                possible moves exist, with only a single solved state.
+                with 9 sqaures on each faces.</div>
 
+        </article>
+        <hr style="margin: 0 20px;height: 2px;border:none;background-color: black;">
+        <h1>What's this ?</h1>
+        <article>
+            <div class="content">This is an image model, Binary classifier. Classifing the state of a 3 X 3 X 3 Rubik's
+                Cube, whether it is in solved state or is it scrambled. It is been trained on a custom dataset
+                containing around 250 solved and scrambled images of the cube on a white background with a generic
+                mobile camera. It is fine-tuned over the imagenet model 'MobileNetV2'. Built using Keras API and opencv
+                in python. For futher depth about the project goto <a style="color: black;" target="_blank"
+                    href="https://github.com/manu-avinash/Rubiks-cube">Rubik's cube | GitHub</a> an fun, full pipeline
+                project.</div>
+
+        </article>
     </main>
     <footer class="footer">
+        <div class="copyright">MIT License
 
+            Copyright (c) 2025 StuftyNufty-AvinashManu
+        </div>
     </footer>
     <script src="/app/js/about.js"></script>
     <script src="/app/js/generic.js"></script>

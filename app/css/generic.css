@@ -2,9 +2,21 @@
   padding: 0;
   margin: 0;
   font-family: "Doto", "Roboto", sans-serif;
+  font-weight: bold;
 }
 body {
   display: flex;
+  /* background-color: beige; */
+
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 0, 0.1),
+    rgba(0, 0, 255, 0.1),
+    rgba(0, 128, 0, 0.1),
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 166, 0, 0.1),
+    white
+  );
   flex-direction: column;
 }
 /* Navigation bar */
@@ -17,6 +29,7 @@ body {
   border-bottom: 1px solid gray;
   height: 48px;
   font-size: 24px;
+  font-weight: bolder;
 }
 .test_tab p,
 .about_tab p,
@@ -29,12 +42,14 @@ body {
   text-decoration: underline;
 }
 .main {
-  
-  background-color: beige;
-  height: 100vh;
+  min-height: 90vh;
   padding: 10px 0px;
 }
 .footer {
   height: 150px;
   background-color: rgb(13, 13, 12);
+  color: white;
+}
+.footer > div {
+  margin: 20px;
 }
