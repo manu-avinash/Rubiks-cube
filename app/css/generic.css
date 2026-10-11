@@ -48,7 +48,9 @@ body {
 .footer {
   height: 150px;
   background-color: rgb(13, 13, 12);
-  color: white;
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: flex-end;
 }
 .footer > div {
   margin: 20px;
