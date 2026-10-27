@@ -1,9 +1,9 @@
 import cv2
 import tensorflow as tf
 import numpy as np
-import matplotlib.pyplot as plt
 
-model=tf.keras.models.load_model('Rubiks-cube/solvedandscrambled.keras')
+# Model loading
+model=tf.keras.models.load_model('Rubiks-cube/backend/eval/model/solvedandscrambled.keras')
 
 IMG_SIZE = (224, 224)  # Adjust based on your model
 
